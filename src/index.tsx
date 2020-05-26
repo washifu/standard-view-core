@@ -99,5 +99,5 @@ export {
   // Others
   FPS,
   generateGroupProps,
-  billboardg
+  billboard
 };
