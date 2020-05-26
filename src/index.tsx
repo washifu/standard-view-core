@@ -14,7 +14,6 @@ import {
   Text,
   Label,
   Polygon,
-  MeshProps,
   MeshPropTypes
 } from "./primitives";
 
@@ -30,7 +29,6 @@ import {
   Path,
   PCD,
   generateGroupProps,
-  GroupProps,
   GroupPropTypes
 } from "./groups";
 
@@ -91,10 +89,8 @@ export {
   useAnimationFrame,
   useFrame,
   useViewContext,
-  // interfaces and PropTypes
-  MeshProps,
+  // PropTypes
   MeshPropTypes,
-  GroupProps,
   GroupPropTypes,
   // Others
   FPS,
