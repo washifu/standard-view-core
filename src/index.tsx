@@ -13,7 +13,9 @@ import {
   Line,
   Text,
   Label,
-  Polygon
+  Polygon,
+  MeshProps,
+  MeshPropTypes
 } from "./primitives";
 
 import {
@@ -24,10 +26,12 @@ import {
   Capsule,
   GLTF,
   Group,
-  generateGroupProps,
   OBJ,
   Path,
-  PCD
+  PCD,
+  generateGroupProps,
+  GroupProps,
+  GroupPropTypes
 } from "./groups";
 
 import {
@@ -83,5 +87,10 @@ export {
   useViewContext,
   // Others
   FPS,
-  generateGroupProps
+  generateGroupProps,
+  // interfaces and PropTypes
+  MeshProps,
+  MeshPropTypes,
+  GroupProps,
+  GroupPropTypes
 };
