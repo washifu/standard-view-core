@@ -43,7 +43,13 @@ import {
   SpotLight
 } from "./lights";
 
-import { FPS, useAnimationFrame, useFrame, useViewContext } from "./utils";
+import {
+  FPS,
+  useAnimationFrame,
+  useFrame,
+  useViewContext,
+  billboard
+} from "./utils";
 
 export {
   // Views
@@ -85,12 +91,13 @@ export {
   useAnimationFrame,
   useFrame,
   useViewContext,
-  // Others
-  FPS,
-  generateGroupProps,
   // interfaces and PropTypes
   MeshProps,
   MeshPropTypes,
   GroupProps,
-  GroupPropTypes
+  GroupPropTypes,
+  // Others
+  FPS,
+  generateGroupProps,
+  billboardg
 };
