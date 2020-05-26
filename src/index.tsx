@@ -13,7 +13,9 @@ import {
   Line,
   Text,
   Label,
-  Polygon
+  Polygon,
+  MeshProps,
+  MeshPropTypes
 } from "./primitives";
 
 import {
@@ -24,10 +26,12 @@ import {
   Capsule,
   GLTF,
   Group,
-  generateGroupProps,
   OBJ,
   Path,
-  PCD
+  PCD,
+  generateGroupProps,
+  GroupProps,
+  GroupPropTypes
 } from "./groups";
 
 import {
@@ -39,7 +43,13 @@ import {
   SpotLight
 } from "./lights";
 
-import { FPS, useAnimationFrame, useFrame, useViewContext } from "./utils";
+import {
+  FPS,
+  useAnimationFrame,
+  useFrame,
+  useViewContext,
+  billboard
+} from "./utils";
 
 export {
   // Views
@@ -81,7 +91,13 @@ export {
   useAnimationFrame,
   useFrame,
   useViewContext,
+  // interfaces and PropTypes
+  MeshProps,
+  MeshPropTypes,
+  GroupProps,
+  GroupPropTypes,
   // Others
   FPS,
-  generateGroupProps
+  generateGroupProps,
+  billboardg
 };
