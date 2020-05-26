@@ -1,11 +1,8 @@
 {
   "name": "@standard/standard-view-core",
-  "version": "1.0.1-beta2",
+  "version": "1.0.1",
   "description": "3D Graphics Library for React Apps",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Standard-Cognition/standard-view-core.git"
-  },
+  "repository": "Standard-Cognition/standard-view-core",
   "license": "UNLICENSED",
   "author": "Wasif S. Islam",
   "main": "./index.js",
@@ -96,13 +93,5 @@
   "dependencies": {
     "multivariate-normal": "^0.1.2",
     "stats.js": "^0.17.0"
-  },
-  "bugs": {
-    "url": "https://github.com/Standard-Cognition/standard-view-core/issues"
-  },
-  "homepage": "https://github.com/Standard-Cognition/standard-view-core#readme",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
   }
 }
