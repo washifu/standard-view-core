@@ -46,7 +46,20 @@ import {
   useAnimationFrame,
   useFrame,
   useViewContext,
-  billboard
+  billboard,
+  // Constants
+  Z_AXIS,
+  Y_AXIS,
+  X_AXIS,
+  DEFAULT_UP_VEC3,
+  DEFAULT_NORMAL_VEC3,
+  DEFAULT_RIGHT_VEC3,
+  DEFAULT_UP,
+  DEFAULT_NORMAL,
+  DEFAULT_RIGHT,
+  SIDE_TYPES,
+  CONTROLS_TYPES,
+  CAMERA_TYPES
 } from "./utils";
 
 export {
@@ -92,6 +105,19 @@ export {
   // PropTypes
   MeshPropTypes,
   GroupPropTypes,
+  // Constants
+  Z_AXIS,
+  Y_AXIS,
+  X_AXIS,
+  DEFAULT_UP_VEC3,
+  DEFAULT_NORMAL_VEC3,
+  DEFAULT_RIGHT_VEC3,
+  DEFAULT_UP,
+  DEFAULT_NORMAL,
+  DEFAULT_RIGHT,
+  SIDE_TYPES,
+  CONTROLS_TYPES,
+  CAMERA_TYPES,
   // Others
   FPS,
   generateGroupProps,

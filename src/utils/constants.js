@@ -6,6 +6,7 @@ export const Y_AXIS = new THREE.Vector3(0, 1, 0);
 export const X_AXIS = new THREE.Vector3(1, 0, 0);
 export const DEFAULT_UP_VEC3 = Y_AXIS.clone();
 export const DEFAULT_NORMAL_VEC3 = Z_AXIS.clone();
+export const DEFAULT_RIGHT_VEC3 = X_AXIS.clone();
 export const DEFAULT_NORMAL = [0, 0, 1];
 export const DEFAULT_UP = [0, 1, 0];
 export const DEFAULT_RIGHT = [1, 0, 0];
