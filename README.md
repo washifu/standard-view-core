@@ -14,7 +14,7 @@ You may login with `npm login` and provide the npm credentials or acquire the np
 Place Views into your React App. For example:
 
 ```
-import { View3D, Box } from '@standard/standard-view';
+import { View3D, Box } from '@standard/standard-view-core';
 .
 .
 .
@@ -24,34 +24,34 @@ import { View3D, Box } from '@standard/standard-view';
 </View3D>
 ```
 
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/example.png" width="250" height="200" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/example.png" width="250" height="200" />
 
 For details about valid properties, look at the interfaces named `*Props`, where `*` is the component name, in `src/primitves/` and `src/groups/`.
 
 ## Stories
 
-`yarn storybook` to see stories of each component in `standard-view`.
-You may also visit [Standard View Storybook](https://standard-view.appstandard.ai/?path=/story) served with netlify.
+`yarn storybook` to see stories of each component in `standard-view-core`.
+You may also visit [Standard View Storybook](https://standard-view-core.appstandard.ai/?path=/story) served with netlify.
 
 ## Examples
 
-[Examples](https://github.com/Standard-Cognition/standard-view-examples)
+[Examples](https://github.com/Standard-Cognition/standard-view-core-examples)
 
 <p align="center">
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/sample-platter.gif" width="800" height="400" />
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/standard-cube.gif" width="400" height="400" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/sample-platter.gif" width="800" height="400" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/standard-cube.gif" width="400" height="400" />
 </p>
 
 ## create-react-app to Standard View Project
 
 <p align="center">
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/create-app-to-standard-view.gif" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/create-app-to-standard-view.gif" />
 </p>
 
 ## Fit to Window
 
 <p align="center">
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/canvas-css.gif" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/canvas-css.gif" />
 </p>
 
 Set `.App canvas` in css file to adjust Standard View `View3D` canvas.
@@ -59,7 +59,7 @@ Set `.App canvas` in css file to adjust Standard View `View3D` canvas.
 ## Intellisense
 
 <p align="center">
-<img src="https://github.com/Standard-Cognition/standard-view/blob/master/example-gifs/intellisense.gif" />
+<img src="https://github.com/Standard-Cognition/standard-view-core/blob/master/example-gifs/intellisense.gif" />
 </p>
 
 For VSCode, press `ctrl + space` to force load intellisense at cursor location.
