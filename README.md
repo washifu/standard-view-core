@@ -28,12 +28,6 @@ import { View3D, Box } from '@standard/standard-view';
 
 For details about valid properties, look at the interfaces named `*Props`, where `*` is the component name, in `src/primitves/` and `src/groups/`.
 
-## Help
-
-Post in slack channel #project-standard-view for assistance, to report bugs, and to request new features.
-Currently this projects is managed by Wasif Islam (wasif@standard.ai).
-Feel free to reach out to Wasif for more help if #project-standard-view has not already addressed your issue.
-
 ## Stories
 
 `yarn storybook` to see stories of each component in `standard-view`.
