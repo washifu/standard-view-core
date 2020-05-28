@@ -110,7 +110,7 @@ const View3D: React.FunctionComponent<View3DProps> = function View3D({
   // Print Standard View Version
   useEffect(() => {
     /* eslint-disable-next-line no-console */
-    console.log(`%cStandard View ${version}`, "color: orange");
+    console.log(`%cStandard View Core ${version}`, "color: orange");
   }, []);
 
   // -----   Contexts   -----//
