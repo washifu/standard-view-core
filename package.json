@@ -1,10 +1,15 @@
 {
-  "name": "@standard/standard-view-core",
-  "version": "1.0.1",
+  "name": "@standard/view",
+  "version": "1.0.0",
   "description": "3D Graphics Library for React Apps",
   "repository": "Standard-Cognition/standard-view-core",
-  "license": "UNLICENSED",
-  "author": "Wasif S. Islam",
+  "license": "MIT",
+  "contributors": [
+    "Standard Cognition (https://standard.ai/) <jobs@standard.ai>",
+    "Wasif S. Islam",
+    "Maytee Chinavanichkit",
+    "Francisco Presencia (https://francisco.io/)"
+  ],
   "main": "./index.js",
   "scripts": {
     "build": "yarn build-webpack && yarn build-babel && yarn build-tsc",
