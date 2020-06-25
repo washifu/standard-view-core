@@ -8,9 +8,6 @@ Install
 $ npm install @standard/view
 ```
 
-Make sure you are logged into the company npm account.
-You may login with `npm login` and provide the npm credentials or acquire the npm token from 1Password (Engineering Team Vault).
-
 Place Views into your React App. For example:
 
 ```
