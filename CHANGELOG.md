@@ -2,7 +2,7 @@
 
 # Unreleased
 
-# 1.0.2
+# 1.0.3
 
 Cleaned up readme and fix image links
 
