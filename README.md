@@ -1,11 +1,11 @@
-# Standard View Core
+# Standard View
 
 # Usage
 
 Install
 
 ```
-$ npm install @standard/standard-view-core
+$ npm install @standard/view
 ```
 
 Make sure you are logged into the company npm account.
@@ -14,7 +14,7 @@ You may login with `npm login` and provide the npm credentials or acquire the np
 Place Views into your React App. For example:
 
 ```
-import { View3D, Box } from '@standard/standard-view-core';
+import { View3D, Box } from '@standard/view';
 .
 .
 .
@@ -30,8 +30,8 @@ For details about valid properties, look at the interfaces named `*Props`, where
 
 ## Stories
 
-`yarn storybook` to see stories of each component in `standard-view-core`.
-You may also visit [Standard View Storybook](https://standard-view-core.appstandard.ai/?path=/story) served with netlify.
+`yarn storybook` to see stories of each component in `standard-view`.
+You may also visit [Standard View Storybook](https://standard-view.netlify.app/?path=/story) served with netlify.
 
 ## Examples
 
