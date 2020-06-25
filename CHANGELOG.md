@@ -2,9 +2,9 @@
 
 # Unreleased
 
-# 1.0.1
+# 1.0.2
 
-Cleaned up readme
+Cleaned up readme and fix image links
 
 # 1.0.0
 
