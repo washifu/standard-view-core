@@ -81,7 +81,7 @@
     "react": "^16.9",
     "react-dom": "^16.9",
     "react-three-fiber": "^4.1.1",
-    "three": "^0.115.0",
+    "three": "^0.125.0",
     "typescript": "^3.5.3",
     "webpack": "^4",
     "webpack-cli": "^3",
@@ -93,7 +93,7 @@
     "prop-types-exact": "^1.2.0",
     "react": "^16.9",
     "react-three-fiber": "^4.1.1",
-    "three": "^0.115.0"
+    "three": "^0.125.0"
   },
   "dependencies": {
     "multivariate-normal": "^0.1.2",
